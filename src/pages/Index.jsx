@@ -31,7 +31,7 @@ const Index = () => {
         </Button>
         <VStack spacing={4} width="100%">
           {notes.map((note, index) => (
-            <Box key={index} p={4} borderWidth="1px" borderRadius="md" width="100%">
+            <Box key={index} p={4} borderWidth="1px" borderRadius="md" width="100%" boxShadow="md">
               <HStack justifyContent="space-between">
                 <Text fontSize="xl" fontWeight="bold">
                   {note.title}
